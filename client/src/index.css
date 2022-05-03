@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quattrocento+Sans&family=Readex+Pro:wght@600&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  color: rgb(255, 128, 0) !important;
+  font-size: 25px !important;
+
+}
+
+.navbar-brand {
+  color: orangered !important;
+  font-size: 30px !important;
+}
+
+.navbar {
+  font-family: 'Lobster', cursive !important;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.btn {
+  background-color: orangered !important;
+  color: white !important;
+  border: none !important;
+}
+
+.admin-delete-btn {
+  background-color: white !important;
+  border: none !important;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+}
+
+.navBtn{
+  background-color: orangered !important;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  box-shadow: 2px 2px 5px rgb(119, 115, 115);
+}
+
+.veg-non-veg-btn{
+  background-color: rgba(184, 184, 184, 0.496);
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+  padding: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.headingSize20 {
+  font-size: 20px !important;
+}
+
+.plus-btn, .minus-btn{
+  font-weight: 600;
+  font-size: 18px;
+  color: green;
+}
+
+.minus-btn{
+  font-weight: 600;
+  font-size: 18px;
+  color: red;
+}
+
+.trashCan{
+  color: red;
+  font-size: 20px;
+}
+
+select {
+  border-color: red !important;
+  box-shadow: none !important;
+}
+
+.admin-Nav{
+  font-family:inherit;
+}
